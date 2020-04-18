@@ -1,0 +1,41 @@
+
+/*resenting body margins*/
+body {
+    margin: 0;
+}
+
+.main-container {
+    margin: 200px 600px;
+}
+
+
+.main-title {
+    color: tomato;
+    text-align: center;
+}
+
+table{
+    border-spacing: 0;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    border: 3px solid tomato;
+}
+
+.remove-top-border{
+    border-top: none;
+}
+
+.remove-bottom-border{
+     border-bottom: none;
+ }
+
+.remove-left-border{
+    border-left: none;
+}
+
+.remove-right-border{
+    border-right: none;
+}
