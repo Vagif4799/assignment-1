@@ -1,0 +1,54 @@
+/*Rəng kodları: Boz rəng çaları: #bdc3c7, mavi rəng: #3498db
+
+font-family: 'Baloo Bhaina 2', cursive;
+font-family: 'Baloo Tammudu 2', cursive;
+font-family: 'Muli', sans-serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Baloo+Tammudu+2:wght@500&family=Muli:wght@500&display=swap');
+
+table, fieldset, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.outer-table-row {
+    width: 98vw;
+    height: 100vh;
+    border: 20px solid #bdc3c7;
+}
+
+.inner-table {
+    margin: 30px;
+}
+
+.date-time {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: #3498db;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.table-data {
+    font-family: 'Muli', sans-serif;
+}
+
+.table-heading {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.add-left-border {
+    border-left: 4px solid #bdc3c7;
+
+}
+
+.add-left-margin {
+    margin-left: 5px;
+}
+
+.middle-p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
