@@ -1,7 +1,16 @@
 @media only screen and (max-width: 1024px) {
 
+    .left {
+        margin-left: 20px;
+    }
+
+
     .description {
         margin-right: 30px;
+    }
+
+    .right {
+        margin-right: 20px;
     }
 
     .social-media {
@@ -32,6 +41,10 @@
         flex-direction: column;
         align-items: center;
         margin: 20px;
+    }
+
+    .left {
+        margin: 0;
     }
 
     .main-illustration {
@@ -79,6 +92,7 @@
     .right {
         display: flex;
         align-items: center;
+        margin-left: 20px;
     }
 
     .description {
@@ -87,7 +101,7 @@
 
     .social-media {
         margin: 50px auto auto auto;
-        width: 60%;
+        width: 50%;
         padding: 10px;
     }
 
