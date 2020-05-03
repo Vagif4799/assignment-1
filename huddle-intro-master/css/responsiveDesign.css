@@ -70,6 +70,14 @@
 
 @media only screen and (max-width: 425px) {
 
+    body {
+        background: var(--bg-color-violet) url("../images/bg-mobile.svg") no-repeat fixed center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -108,6 +116,14 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+    body {
+        background: var(--bg-color-violet) url("../images/bg-mobile.svg") no-repeat fixed center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
     .right {
         margin: 0;
