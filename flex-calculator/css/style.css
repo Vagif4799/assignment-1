@@ -1,0 +1,107 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-grey: #d8d9db;
+    --buttons-on-hover: #ebebeb;
+    --button-active-state: #bbbcbe;
+    --function-buttons: #df974c;
+    --function-buttons-on-hover: #dfb07e;
+    --function-button-active-state: #dd8d37;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.my-calculator {
+    width: 400px;
+    height: 600px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.screen {
+    height: 4em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    outline: 1px solid #888888;
+}
+
+.btn {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #ebebeb;
+    color: #888888;
+    flex: 1;
+    outline: 1px solid #888888;
+}
+
+
+.btn-func {
+    background-color: #dd8d37;
+    color: white;
+}
+
+.clear {
+    flex: 2;
+}
+
+.zero {
+    flex: 3;
+}
+
+.btn:hover {
+    background-color: var(--buttons-on-hover);
+    color: var(--black);
+}
+
+.btn-func:hover {
+    background-color: var(--function-buttons-on-hover);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
